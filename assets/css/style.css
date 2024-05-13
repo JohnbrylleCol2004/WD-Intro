@@ -20,10 +20,16 @@ body{
 img{
     width: 100%;
 }
-a{
+a {
     text-decoration: none;
     color:white;
 
+}
+.profile_description{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:var(--text-color);
 }
 .container{
     max-width: 500px;
@@ -53,6 +59,26 @@ a{
 }
 .profile_img{
    max-width: 250px;
+}
+.profile_firstname{
+    color: white;
+    font-weight: 200;
+    font-size: clamp(2rem,8vw,4rem)
+    text-transform: uppercase;
+    display:block;
+    margin-bottom: -0.8 rem;
+}
+.profile_lastname{
+    color:var(--primary-color);
+    font-weight:700;
+    font-size:clamp(2.5rem,15vw,7rem);
+    text-transform: uppercase;
+    display: block;
+}
+.profile_title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase   ;
 }
 
 
