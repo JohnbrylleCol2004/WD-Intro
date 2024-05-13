@@ -31,6 +31,12 @@ a {
     font-weight: 400;
     color:var(--text-color);
 }
+.title{
+    color:var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
 .container{
     max-width: 500px;
     width: 90%;
@@ -80,7 +86,14 @@ a {
     font-weight: 400;
     text-transform: uppercase   ;
 }
-
+.skills_list{
+   
+}
+.exp_list{
+    margin-top:1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
 
 
 
