@@ -77,7 +77,8 @@ a {
     grid-column: 1 / -1;
     margin-bottom: 2rem;
 }
-.group-1{
+.group-1,
+.group-2{
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -94,8 +95,8 @@ a {
     font-weight: 200;
     font-size: clamp(2rem,8vw,4rem)
     text-transform: uppercase;
-    display:block;
-    margin-bottom: -0.8 rem;
+    display: block;
+
 }
 .profile_lastname{
     color:var(--primary-color);
@@ -130,21 +131,18 @@ a {
 .exp_item{
     margin-top: 2rem;
 }
-.int_item{
+.int_items{
     margin-top: 2rem;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 200px;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-.int_item{
-    font-size: 1.4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    color: var(--text-color);
-}
+  }
+  
+.int_items img {
+    padding: 10px;
+    border-radius: 0;
+  }
+
 
 
