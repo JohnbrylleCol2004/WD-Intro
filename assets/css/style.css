@@ -19,6 +19,8 @@ body{
 }
 img{
     width: 100%;
+    border-radius: 40%;
+    
 }
 a {
     text-decoration: none;
@@ -54,7 +56,7 @@ a {
     font-weight: 500;
 }
 .container{
-    max-width: 500px;
+    max-width: 1000px;
     width: 90%;
     margin: 0 auto;
     display: grid;
@@ -127,6 +129,22 @@ a {
 }
 .exp_item{
     margin-top: 2rem;
+}
+.int_item{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.int_item{
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--text-color);
 }
 
 
