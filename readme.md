@@ -109,5 +109,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| CSS Only Custom Shape Button with Hover Effects | Html CSS Tutorial | For making the shapes in my resume have a hover | https://www.youtube.com/watch?v=rdUu6E7MrCE |
+| How to Create a Responsive Resume CV Website using HTML and CSS | For making the html and also css | https://www.youtube.com/watch?v=lTqw_op6anw|
+|HTML CSS Resume | Beginner Project| Take some reference to my html and css also| https://www.youtube.com/watch?v=FHb9JobDs2o |
+| CSS clip-path maker | To change the shape in the css when it was hover | https://bennettfeely.com/clippy/ |
 
